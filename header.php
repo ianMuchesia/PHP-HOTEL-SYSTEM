@@ -11,7 +11,9 @@
     <link href="css/styles.css" rel="stylesheet">
 
     <!--Custom Font-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -22,10 +24,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span></button>
-            <a class="navbar-brand" href="index.php?dashboard"><span>Hotel </span>Management System</a>
+            <a class="navbar-brand" href="index.php?dashboard"><span>Evans Mwirigi  </span>  Hotel System</a>
             <ul class="nav navbar-top-links navbar-right">
                 <li class="dropdown"><a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
                         <em class="fa fa-user"></em>
+                        
                     </a>
                     <ul class="dropdown-menu dropdown-alerts">
                         <li><a href="logout.php"><i class="fa fa-power-off" style="color:red;"></i>

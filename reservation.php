@@ -14,11 +14,11 @@ if (isset($_GET['room_id'])){
 ?>
 <div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
     <div class="row">
-        <ol class="breadcrumb">
+        <ol class="breadcrumb background">
             <li><a href="#">
-                    <em class="fa fa-home"></em>
+                    <em class="fa fa-home white"></em>
                 </a></li>
-            <li class="active">Reservation</li>
+            <li class="white">Reservation</li>
         </ol>
     </div><!--/.row-->
 
@@ -30,15 +30,15 @@ if (isset($_GET['room_id'])){
 
     
 
-    <div class="row">
-        <div class="col-lg-12">
+    <div class="row ">
+        <div class="col-lg-12 ">
             <form role="form" id="booking" data-toggle="validator">
                 <div class="response"></div>
                 <div class="col-lg-12">
                     <?php
                     if (isset($_GET['room_id'])){?>
 
-                        <div class="panel panel-default">
+                        <div class="panel panel-default background">
                             <div class="panel-heading">Room Information:
                                 <a class="btn btn-secondary pull-right" href="index.php?room_mang">Replan Booking</a>
                             </div>
@@ -194,7 +194,7 @@ if (isset($_GET['room_id'])){
 
     <div class="row">
         <div class="col-sm-12">
-            <p class="back-link">Developed By Prem Chand Saini</p>
+            <p class="back-link">Developed By Evans Mwirigi</p>
         </div>
     </div>
 

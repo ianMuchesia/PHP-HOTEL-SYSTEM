@@ -1,27 +1,27 @@
 
 <body>
-	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
-		<div class="row">
-			<ol class="breadcrumb">
+	<!--/.row-->
+	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main" >
+		<div class="row ">
+			<ol class="breadcrumb background ">
 				<li><a href="#">
-					<em class="fa fa-home"></em>
+					<em class="fa fa-home white "></em>
 				</a></li>
-				<li class="active">Dashboard</li>
+				<li class=" white ">Dashboard</li>
 			</ol>
-		</div><!--/.row-->
-		
+		</div>
 		<!-- <div class="row">
 			<div class="col-lg-12">
 				<h1 class="page-header">Dashboard</h1>
 			</div>
 		</div>/.row -->
 		
-		<div class="panel panel-container">
+		<div class="panel panel-container background">
 			<div class="row">
 				<div class="col-xs-6 col-md-3 col-lg-3 no-padding">
 					<div class="panel panel-teal panel-widget border-right">
 						<div class="row no-padding"><em class="fa fa-xl fa-bed color-blue"></em>
-							<div class="large"><?php include 'counters/room-count.php'?></div>
+							<div class="large white"><?php include 'counters/room-count.php'?></div>
 							<div class="text-muted">Total Rooms</div>
 						</div>
 					</div>
@@ -99,7 +99,7 @@
 				<div class="col-xs-6 col-md-4 col-lg-4 no-padding">
 					<div class="panel panel-red panel-widget border-right">
 						<div class="row no-padding"><em class="fa fa-xl fa-money color-red"></em>
-							<div class="large">Rs.<?php include 'counters/income-count.php'?></div>
+							<div class="large">Ksh.<?php include 'counters/income-count.php'?></div>
 							<div class="text-muted">Total Earnings</div>
 						</div>
 					</div>
@@ -107,7 +107,7 @@
 				<div class="col-xs-6 col-md-4 col-lg-4 no-padding">
 					<div class="panel panel-orange panel-widget ">
 						<div class="row no-padding"><em class="fa fa-xl fa-credit-card color-purp"></em>
-							<div class="large">Rs.<?php include 'counters/pendingpayment.php'?></div>
+							<div class="large">Ksh.<?php include 'counters/pendingpayment.php'?></div>
 							<div class="text-muted">Pending Payment</div>
 						</div>
 					</div>

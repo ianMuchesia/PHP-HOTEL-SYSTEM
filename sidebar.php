@@ -79,7 +79,7 @@
             </li>
         <?php }
         ?>
-
+<!-- 
         <?php
         if (isset($_GET['statistics'])){ ?>
             <li class="active">
@@ -93,7 +93,7 @@
                 Statistics
             </a>
         </li>
-<?php }?>
+<?php }?> -->
 
         
     </ul>

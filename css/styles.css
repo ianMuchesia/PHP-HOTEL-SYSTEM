@@ -1,9 +1,44 @@
+
+:root {
+  /* primary colors */
+  ---primary-100: #d3d4d4;
+  --primary-200: #a8a8aa;
+  --primary-300: #7c7d7f;
+  --primary-400: #515155;
+  --primary-500: #25262a;
+  --primary-600: #1e1e22;
+  --primary-700: #161719;
+  --primary-800: #0f0f11;
+  --primary-900: #070808;
+
+
+  /* grey colors */
+ 
+  --grey-500: #ffffff;
+  --grey-600: #cccccc;
+  --grey-700: #999999;
+  --grey-800: #666666;
+  --grey-900: #333333;
+
+
+
+  --green-100: #def9eb;
+  --green-200: #bef2d7;
+  --green-300: #9decc4;
+  --green-400: #7de5b0;
+  --green-500: #5cdf9c;
+  --green-600: #4ab27d;
+  --green-700: #37865e;
+  --green-800: #25593e;
+  --green-900: #122d1f;
+}
+
 body {
-  background: #f1f4f7;
+  background: var(--primary-500);
   padding-top: 60px;
   font-size: 14px;
   color: #444444;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p {
@@ -22,26 +57,27 @@ h3,
 h4,
 h5,
 h6 {
-  color: #444444;
+  color: var(--green-800);
 }
 
 h1 {
-  font-weight: 300;
+  font-weight: 700;
   font-size: 40px;
 }
 
 h2 {
-  font-weight: 300;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 
 h3,
 h4 {
-  font-weight: 300;
+  font-weight: 500;
 }
 
 .large {
   font-size: 2em;
+  color: #fff;
 }
 
 .text-muted {
@@ -131,12 +167,12 @@ select.form-control {
 }
 
 .navbar-custom {
-  background: #222;
+  background: var(--primary-500);
   height: 60px;
 }
 
 .navbar-header .navbar-brand {
-  color: #fff;
+  color: var(--green-800);
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 500;
@@ -145,7 +181,7 @@ select.form-control {
 }
 
 .navbar-header .navbar-brand span {
-  color: #ffc930;
+  color: var(--green-500);
 }
 
 .navbar-toggle {
@@ -171,7 +207,7 @@ select.form-control {
 }
 
 .dropdown a.dropdown-toggle {
-  color: #fff;
+  color: var(--green-500);
   height: 40px;
   width: 40px;
   padding-top: 11px;
@@ -255,14 +291,14 @@ select.form-control {
 .dropdown-alerts {
   border: 1px solid #fff;
   width: 260px;
-  background: rgba(255, 255, 255, 0.9);
-  color: #444;
+  background: var(--primary-500)90;
+  color: var(---primary-100);
   font-size: 0.9em;
 }
 
 .all-button a {
   text-align: center;
-  color: #444;
+  color: var(---primary-100);
   font-size: 12px;
   text-transform: uppercase;
   display: block;
@@ -733,7 +769,7 @@ a.label:focus {
   border-radius: 0;
   background: none;
   text-align: center;
-  color: #333;
+
 }
 
 .panel-widget .panel-footer {
@@ -768,7 +804,7 @@ a.label:focus {
 }
 
 .panel-widget .large {
-  color: #373b45;
+  color: #fff;
   font-size: 3em;
 }
 
@@ -1153,7 +1189,7 @@ a.label:focus {
   display: inline-block;
   margin-top: 14px;
   margin-right: 10px;
-  float: right;
+
   list-style: none;
   padding: 0;
 }
@@ -1172,7 +1208,8 @@ a.label:focus {
   padding: 0;
   display: none;
   box-shadow: none;
-  background: #fff;
+  background: inherit;
+  color: var(--green-500);
 }
 
 .sidebar ul {
@@ -1182,6 +1219,7 @@ a.label:focus {
 .sidebar form {
   padding: 10px 0 0 0;
   margin: 10px 10px 20px 10px;
+
 }
 
 @media (min-width: 768px) {
@@ -1217,7 +1255,7 @@ a.label:focus {
 .sidebar ul.nav li.parent a.active:hover,
 .sidebar ul.nav .active > a:focus,
 .sidebar ul.nav li.parent a.active:focus {
-  color: #fff;
+  color: var(--green-500);
   background-color: #000000;
 }
 
@@ -1231,7 +1269,7 @@ a.label:focus {
   height: 50px;
   font-size: 15px;
   line-height: 2em;
-  color: #444444;
+  color: #fff;
 }
 
 .sidebar ul.nav ul.children {
@@ -1546,4 +1584,19 @@ p.back-link {
   margin-bottom: 20px;
   font-size: 12px;
   text-transform: uppercase;
+}
+
+
+.background{
+  background: var(--primary-500);
+}
+
+.white{
+  color: #fff;
+}
+.heading-color{
+  color: #fff;
+}
+.heading-color:hover{
+  color: var(--green-500);
 }
